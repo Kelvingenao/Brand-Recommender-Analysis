@@ -1,0 +1,2 @@
+# Brand-Recommender-Analysis
+Analisis_de_Recomendacion_de_Marca_con_SQL_Power_BI
