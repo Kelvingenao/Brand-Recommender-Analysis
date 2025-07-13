@@ -1,39 +1,39 @@
-# 📈 Análisis de Recomendación de Marca con SQL y Power BI
+# 📈 Brand Recommendation Analysis with SQL and Power BI
 
-Este proyecto simulado analiza el comportamiento de recomendación de marcas dentro de un ecommerce. El objetivo es identificar patrones de consumo por día (festivo/no festivo) y por género, y sugerir estrategias que las marcas puedan adaptar junto con sus equipos de análisis para mejorar ventas y experiencia del cliente.
-
----
-
-## 🛠 Herramientas Utilizadas
-
-- **SQL:** Extracción, limpieza y transformación de datos.
-- **Power BI:** Visualización interactiva de los datos y análisis descriptivo.
+This simulated project analyzes brand recommendation behavior within an e-commerce environment. The goal is to identify consumption patterns by day type (holiday/non-holiday) and gender, and to suggest strategies that brands can adapt—alongside their analytics teams—to improve sales and customer experience.
 
 ---
 
-## 🗂 Estructura del Proyecto
+## 🛠 Tools Used
+
+- **SQL:** Data extraction, cleaning, and transformation.
+- **Power BI:** Interactive data visualization and descriptive analysis.
+
+---
+
+## 🗂 Project Structure
 
 ### 1. `Data Normalization & Setup`
-Preparación del dataset, limpieza, manejo de valores nulos y estructuración para asegurar calidad y consistencia en el análisis.
+Dataset preparation, cleaning, handling of null values, and structuring to ensure data quality and consistency throughout the analysis.
 
 ### 2. `Query`
-Consultas SQL enfocadas en:
-- Probabilidad de recomendación por marca.
-- Comportamiento por días festivos y no festivos.
-- Diferencias por género.
-- Precio de productos más recomendados.
+SQL queries focused on:
+- Recommendation probability by brand.
+- Behavior across holidays and non-holidays.
+- Gender differences.
+- Price of most recommended products.
 
 ### 3. `Data Project (data_proyect)`
-Dataset principal procesado que contiene:
-- Marca
-- Probabilidad de recomendación
-- Género del cliente
-- Precio
-- Día (festivo o no festivo)
+Main processed dataset containing:
+- Brand
+- Recommendation probability
+- Customer gender
+- Price
+- Day type (holiday or non-holiday)
 
 ### 4. `Insights`
 
-#### 🔝 Marcas con Mayor Probabilidad de Recomendación (1.0):
+#### 🔝 Brands with the Highest Recommendation Probability (1.0):
 - PUMA  
 - Lee  
 - Head Hunters  
@@ -50,56 +50,57 @@ Dataset principal procesado que contiene:
 - Forest Essentials  
 - Pepe Jeans London  
 
-#### 📅 Comparación por Tipo de Día:
+#### 📅 Comparison by Day Type:
 
-**Días Festivos:**
+**Holidays:**
 - Godrej Interio (10000, 1.0)  
 - Manyavar Mohey (10000, 1.0)  
 - Allen Solly Woman (10000, 0.9)  
 - Dettol (10000, 1.0)  
 
-**Días No Festivos:**
+**Non-Holidays:**
 - Pepe Jeans London (10000, 1.0)  
 - Lee Cooper (10000, 0.5)  
 - AmazonBasics (10000, 0.4)  
 
-#### 👩‍🦰👨 Promedio de Recomendación por Género:
+#### 👩‍🦰👨 Average Recommendation by Gender:
 
-| Tipo de Día     | Femenino | Masculino |
-|----------------|----------|-----------|
-| General        | 0.63125  | 0.72944   |
-| Festivos       | 0.60298  | 0.70658   |
-| No Festivos    | 0.65167  | 0.74489   |
-
----
-
-## 📊 Visualización en Power BI
-
-- Distribución de la probabilidad de recomendación por marca.
-- Comparación entre días festivos y no festivos.
-- Análisis del comportamiento de compra por género.
-- Relación entre precio y recomendación.
+| Day Type       | Female   | Male     |
+|----------------|----------|----------|
+| Overall        | 0.63125  | 0.72944  |
+| Holidays       | 0.60298  | 0.70658  |
+| Non-Holidays   | 0.65167  | 0.74489  |
 
 ---
 
-## 💡 Conclusiones
+## 📊 Power BI Visualization
 
-- **Estrategias exitosas en días festivos** pueden ser replicadas en días no festivos por marcas como Godrej Interio o Dettol.
-- **Los hombres tienen mayor probabilidad de recomendar**, pero **las mujeres suelen comprar más**, lo que indica una posible brecha en experiencia de usuario.
-- Marcas con bajo rendimiento festivo (Lee Cooper, AmazonBasics) pueden mejorar con promociones específicas o campañas dirigidas.
-- Productos con alta recomendación en días festivos tienden a tener **precios elevados (10000)**.
-
----
-
-## 🚀 Propuesta de Estrategia General
-
-Consulta el archivo [`estrategia_general.md`](estrategia_general.md) para una estrategia general basada en este análisis, que las marcas pueden adaptar con sus propios datos.
+- Distribution of recommendation probability by brand.
+- Comparison between holidays and non-holidays.
+- Purchase behavior analysis by gender.
+- Relationship between product price and recommendation probability.
 
 ---
 
-## 📝 Nota Final
+## 💡 Conclusions
 
-Este proyecto tiene fines educativos y los datos son simulados. Las ideas aquí propuestas pueden adaptarse con mayor precisión en un entorno real mediante la incorporación de más variables como edad, región, frecuencia de compra, etc.
+- **Successful strategies on holidays** can be replicated on non-holidays by brands like Godrej Interio or Dettol.
+- **Men show higher recommendation probability**, but **women tend to purchase more**, suggesting a possible gap in user experience.
+- Underperforming brands during holidays (Lee Cooper, AmazonBasics) may improve through targeted promotions or campaigns.
+- Highly recommended products during holidays tend to have **higher prices (10000)**.
+
+---
+
+## 🚀 General Strategy Proposal
+
+See the file [`estrategia_general.md`](estrategia_general.md) for a general strategy based on this analysis, which brands can adapt using their own data.
+
+---
+
+## 📝 Final Note
+
+This is an educational project using simulated data. The ideas proposed here can be refined in a real-world scenario by incorporating additional variables such as age, region, purchase frequency, etc.
+
 
 
 
