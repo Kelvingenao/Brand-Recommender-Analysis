@@ -1,80 +1,81 @@
-# Estrategia de Marketing Basada en Análisis de Recomendación y Comportamiento de Compra
+# Marketing Strategy Based on Recommendation Analysis and Purchase Behavior
 
-## 🎯 Objetivo de la Estrategia
+## 🎯 Strategy Objective
 
-Diseñar una estrategia general basada en hallazgos de comportamiento de consumo y probabilidad de recomendación, que sirva como guía para marcas interesadas en optimizar sus ventas y experiencia del cliente en días festivos y no festivos. Esta estrategia puede ser adaptada por los equipos de análisis de datos internos según los objetivos específicos de cada marca.
+Design a general strategy based on key findings regarding consumer behavior and recommendation probability, to serve as a guide for brands aiming to optimize sales and customer experience on both holidays and non-holidays. This strategy can be adapted by internal data analytics teams based on the specific goals of each brand.
 
 ---
 
-## 📊 Hallazgos Clave del Análisis
+## 📊 Key Findings from the Analysis
 
-### 🔝 Marcas con Mayor Probabilidad de Recomendación (1.0)
+### 🔝 Brands with the Highest Recommendation Probability (1.0)
 
-#### En días festivos:
+#### On holidays:
 - Godrej Interio  
 - Manyavar Mohey  
 - Allen Solly Woman (0.9)  
 - Dettol  
 
-#### En días no festivos:
+#### On non-holidays:
 - Pepe Jeans London  
 - Lee Cooper (0.5)  
 - AmazonBasics (0.4)  
 
-### 👩‍🦰👨 Diferencia por Género (Promedio de Recomendación)
+### 👩‍🦰👨 Gender Differences (Average Recommendation)
 
-| Tipo de Día     | Femenino | Masculino |
-|----------------|----------|-----------|
-| General        | 0.63125  | 0.72944   |
-| Festivos       | 0.60298  | 0.70658   |
-| No Festivos    | 0.65167  | 0.74489   |
+| Day Type       | Female   | Male     |
+|----------------|----------|----------|
+| Overall        | 0.63125  | 0.72944  |
+| Holidays       | 0.60298  | 0.70658  |
+| Non-Holidays   | 0.65167  | 0.74489  |
 
-🔎 Aunque los hombres tienen mayor probabilidad de recomendación, estudios muestran que **las mujeres suelen comprar más que los hombres**. Esto podría reflejar una **experiencia de compra deficiente** para el segmento femenino en este caso particular.
-
----
-
-## 📌 Estrategia General Propuesta
-
-### 1. Optimización de Estrategias en Días No Festivos
-
-- Las marcas que venden más en festivos podrían **replicar promociones festivas en días normales** (descuentos, regalos, bundles).
-- Ejemplo: Godrej Interio, Dettol, Manyavar Mohey podrían lanzar micro-campañas los lunes o miércoles no festivos, aprovechando su fórmula ganadora.
-
-### 2. Segmentación por Género
-
-Aunque los hombres tienen mejor recomendación, **las mujeres son quienes más compran en general**.  
-Las marcas deberían:
-
-- Mejorar la experiencia femenina: atención personalizada, espacios más atractivos en tienda, usabilidad web, campañas específicas.
-- Incluir campañas de fidelización con enfoque emocional y beneficios exclusivos.
-
-### 3. Activaciones y Experiencia del Cliente
-
-Para marcas como Lee Cooper o AmazonBasics, que **tienen menor recomendación en días festivos**, se recomienda:
-
-- **Campañas específicas para esos días festivos**: combos, eventos online, gamificación, beneficios VIP.
-- Ajustes en atención, navegación, mensajes y segmentación para públicos femeninos, que podrían estar menos satisfechas.
+🔎 Although men show higher recommendation probability, research shows that **women tend to make more purchases than men**. This could indicate a **suboptimal shopping experience** for the female segment in this specific case.
 
 ---
 
-## 🧩 Siguientes Pasos para las Marcas
+## 📌 Proposed General Strategy
 
-- Validar internamente con sus equipos de análisis si los datos coinciden con sus propios reportes.
-- Segmentar clientes fieles por género y tipo de día para hacer A/B testing en campañas.
-- Explorar razones detrás de la menor experiencia femenina (feedback, encuestas, análisis UX).
-- Monitorear evolución de la probabilidad de recomendación tras aplicar mejoras.
+### 1. Optimizing Non-Holiday Strategies
+
+- Brands that perform better on holidays can **replicate festive strategies on regular days** (discounts, gifts, bundles).
+- Example: Godrej Interio, Dettol, and Manyavar Mohey could launch micro-campaigns on regular Mondays or Wednesdays using their winning formula.
+
+### 2. Gender-Based Segmentation
+
+Although men have a higher recommendation rate, **women generally make more purchases**.  
+Brands should:
+
+- Improve the female experience: personalized service, more attractive in-store spaces, better website usability, gender-specific campaigns.
+- Include loyalty programs with emotional appeal and exclusive benefits.
+
+### 3. Customer Experience and Brand Activation
+
+For brands like Lee Cooper or AmazonBasics, which have **lower recommendation rates on holidays**, it is recommended to:
+
+- Launch **specific campaigns for holidays**: bundles, online events, gamification, VIP benefits.
+- Make UX, messaging, and segmentation adjustments targeting women, who might be less satisfied with the current experience.
 
 ---
 
-## ✅ Notas Finales
+## 🧩 Next Steps for Brands
 
-> Esta estrategia es un punto de partida general. Con más datos (como edad, región, canal de compra, etc.), se podrían proponer recomendaciones mucho más específicas, basadas en clusters o perfiles de cliente.
+- Internally validate with analytics teams whether this data aligns with their own reports.
+- Segment loyal customers by gender and day type to run A/B tests for campaign performance.
+- Investigate causes of lower female satisfaction (feedback, surveys, UX analysis).
+- Monitor the evolution of recommendation probability after implementing improvements.
 
 ---
 
-## ℹ️ Dato Curioso
+## ✅ Final Notes
 
-**¿Es verdad que las mujeres compran más que los hombres?**  
-Sí, en promedio **las mujeres tienden a hacer más compras de consumo general y detallista** (moda, salud, hogar, belleza, etc.), aunque los hombres gastan más en tecnología y grandes compras. Pero esto siempre depende del contexto, segmento y tipo de producto.
+> This strategy is a general starting point. With more data (e.g., age, region, sales channel, etc.), much more specific recommendations could be made based on customer clusters or profiles.
+
+---
+
+## ℹ️ Fun Fact
+
+**Is it true that women shop more than men?**  
+Yes. On average, **women tend to make more frequent purchases for fashion, health, home, and beauty**, while men usually spend more on technology and high-ticket items. However, this always depends on context, target audience, and product type.
+
 
 
